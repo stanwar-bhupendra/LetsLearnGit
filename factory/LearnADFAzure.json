@@ -1,0 +1,9 @@
+{
+	"name": "LearnADFAzure",
+	"location": "southeastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e3adc0d9-b61a-4221-a78b-79aa5c81b630",
+		"tenantId": "02aa9fc1-18bc-4798-a020-e01c854dd434"
+	}
+}
