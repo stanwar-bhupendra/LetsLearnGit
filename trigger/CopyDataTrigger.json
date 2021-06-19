@@ -1,0 +1,25 @@
+{
+	"name": "CopyDataTrigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "CopyData",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 30,
+				"startTime": "2021-06-19T16:35:00",
+				"endTime": "2021-06-19T16:37:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
