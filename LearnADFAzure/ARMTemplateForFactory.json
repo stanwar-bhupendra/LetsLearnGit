@@ -210,8 +210,8 @@
 					"recurrence": {
 						"frequency": "Minute",
 						"interval": 30,
-						"startTime": "2021-06-19T16:35:00",
-						"endTime": "2021-06-19T16:37:00",
+						"startTime": "2021-06-19T16:38:00",
+						"endTime": "2021-06-19T16:40:00",
 						"timeZone": "India Standard Time"
 					}
 				}
