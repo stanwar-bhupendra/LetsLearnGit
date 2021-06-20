@@ -1,0 +1,6 @@
+{
+	"name": "CopyDataFromDBtoBlob",
+	"properties": {
+		"annotations": []
+	}
+}
