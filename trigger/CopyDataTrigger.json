@@ -9,12 +9,6 @@
 					"referenceName": "CopyData",
 					"type": "PipelineReference"
 				}
-			},
-			{
-				"pipelineReference": {
-					"referenceName": "CopyDataFromDBtoBlob",
-					"type": "PipelineReference"
-				}
 			}
 		],
 		"type": "ScheduleTrigger",
