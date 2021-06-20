@@ -2,7 +2,7 @@
 	"name": "WindowTumlingTrigger",
 	"properties": {
 		"annotations": [],
-		"runtimeState": "Started",
+		"runtimeState": "Stopped",
 		"pipeline": {
 			"pipelineReference": {
 				"referenceName": "CopyDataFromSQL",
