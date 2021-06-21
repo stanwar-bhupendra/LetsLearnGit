@@ -15,6 +15,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'AzureStorageLinkedService'"
 		},
+		"EventBasedTrigger_properties_typeProperties_scope": {
+			"type": "string",
+			"defaultValue": "/subscriptions/6f15be9b-3ff3-4f23-a612-b7a782c165fa/resourceGroups/LearnAzureSQL/providers/Microsoft.Storage/storageAccounts/learnazurestorageacc"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -47,6 +51,9 @@
 					},
 					"AzureStorageLinkedService_connectionString": {
 						"value": "[parameters('AzureStorageLinkedService_connectionString')]"
+					},
+					"EventBasedTrigger_properties_typeProperties_scope": {
+						"value": "[parameters('EventBasedTrigger_properties_typeProperties_scope')]"
 					}
 				}
 			},

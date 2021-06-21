@@ -11,6 +11,9 @@
 		"AzureStorageLinkedService_connectionString": {
 			"value": ""
 		},
+		"EventBasedTrigger_properties_typeProperties_scope": {
+			"value": "/subscriptions/6f15be9b-3ff3-4f23-a612-b7a782c165fa/resourceGroups/LearnAzureSQL/providers/Microsoft.Storage/storageAccounts/learnazurestorageacc"
+		},
 		"containerUri": {
 			"value": ""
 		},
