@@ -18,7 +18,8 @@
 			"ignoreEmptyBlobs": true,
 			"scope": "/subscriptions/6f15be9b-3ff3-4f23-a612-b7a782c165fa/resourceGroups/LearnAzureSQL/providers/Microsoft.Storage/storageAccounts/learnazurestorageacc",
 			"events": [
-				"Microsoft.Storage.BlobCreated"
+				"Microsoft.Storage.BlobCreated",
+				"Microsoft.Storage.BlobDeleted"
 			]
 		}
 	}
